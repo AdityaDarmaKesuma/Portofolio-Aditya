@@ -229,7 +229,7 @@ export default function Home() {
                     Hubungi Saya
                   </Button>
                 </a>
-                <a href="#experience">
+                <a href="#">
                   <Button
                     size="lg"
                     variant="outline"
@@ -709,13 +709,13 @@ export default function Home() {
             {
               title: "MTCRE (MikroTik)",
               issuer: "MikroTik Certified Routing Engineer",
-              date: "Sep 2025",
+              date: "Sep 2025 - Sep 2028",
               image: "/SertifikatMTCRE.jpg", // Ganti dengan nama file gambar kamu di public/
             },
             {
               title: "OCNA Wireless (TP-Link)",
               issuer: "Omada Certified Network Administrator",
-              date: "Jun 2025",
+              date: "Jun 2025 - Jun 2028",
               image: "/SertifikatOCNA.jpg", // Ganti dengan nama file gambar kamu di public/
             },
             {
@@ -827,7 +827,7 @@ export default function Home() {
       </section>
 
       {/* --- 6. PROYEK UTAMA --- */}
-      <section className="w-full max-w-6xl mt-32 px-6">
+      <section id="projects" className="w-full max-w-6xl mt-32 px-6">
         <FadeUp>
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center tracking-tight border-b border-slate-800 pb-4 text-white">
             Pencapaian & Proyek
@@ -932,7 +932,7 @@ export default function Home() {
       </section>
 
       {/* --- 7. TECH STACK & KEAHLIAN --- */}
-      <section className="w-full max-w-5xl mt-24 px-6">
+      <section id="keahlian" className="w-full max-w-5xl mt-24 px-6">
         <FadeUp>
           <h2 className="text-3xl font-bold mb-4 text-center text-white">
             Tech Stack & Keahlian

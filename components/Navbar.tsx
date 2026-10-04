@@ -14,6 +14,24 @@ export default function Navbar() {
           Tentang Saya
         </Link>
         <Link
+          href="#experience-education"
+          className="text-sm font-medium text-slate-400 hover:text-white transition-colors"
+        >
+          Pengalaman & Pendidikan
+        </Link>
+        <Link
+          href="#certifications"
+          className="text-sm font-medium text-slate-400 hover:text-white transition-colors"
+        >
+          Pelatihan & Sertifikasi
+        </Link>
+        <Link
+          href="#keahlian"
+          className="text-sm font-medium text-slate-400 hover:text-white transition-colors"
+        >
+          Keahlian
+        </Link>
+        <Link
           href="#projects"
           className="text-sm font-medium text-slate-400 hover:text-white transition-colors"
         >
