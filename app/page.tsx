@@ -142,7 +142,7 @@ export default function Home() {
         break;
       case "skills":
         output =
-          "Network: MikroTik, DevOps: Jenkins. Fullstack: Laravel, ReactJS.";
+          "Network: MikroTik. DevOps: Jenkins. Fullstack: Laravel, ReactJS.";
         break;
       case "certs":
         output =
@@ -578,21 +578,21 @@ export default function Home() {
                   <div className="grid grid-cols-3 gap-3">
                     <div className="relative aspect-square overflow-hidden rounded-lg border border-slate-700/50 group bg-slate-800/50">
                       <img
-                        src="/wisuda-1.jpg"
+                        src="/fotowisuda1.JPG"
                         alt="Foto Wisuda 1"
                         className="w-full h-full object-cover  group-hover:scale-110 transition-all duration-500"
                       />
                     </div>
                     <div className="relative aspect-square overflow-hidden rounded-lg border border-slate-700/50 group bg-slate-800/50">
                       <img
-                        src="/wisuda-2.jpg"
+                        src="/fotowisuda2.JPG"
                         alt="Foto Wisuda 2"
                         className="w-full h-full object-cover  group-hover:scale-110 transition-all duration-500"
                       />
                     </div>
                     <div className="relative aspect-square overflow-hidden rounded-lg border border-slate-700/50 group bg-slate-800/50">
                       <img
-                        src="/wisuda-3.jpg"
+                        src="/fotowisuda3.JPG"
                         alt="Foto Wisuda 3"
                         className="w-full h-full object-cover  group-hover:scale-110 transition-all duration-500"
                       />
