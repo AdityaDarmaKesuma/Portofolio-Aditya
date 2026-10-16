@@ -221,21 +221,24 @@ export default function Home() {
             </FadeUp>
             <FadeUp delay={0.4}>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                <a href="#contact">
+                <a
+                  href="/CV_Aditya_Darma_Kesuma.pdf"
+                  download="CV_Aditya_Darma_Kesuma.pdf"
+                >
                   <Button
                     size="lg"
                     className="rounded-full px-8 bg-blue-600 hover:bg-blue-700 text-white border-none shadow-lg shadow-blue-900/30"
                   >
-                    Hubungi Saya
+                    Unduh CV
                   </Button>
                 </a>
-                <a href="#">
+                <a href="#contact">
                   <Button
                     size="lg"
                     variant="outline"
                     className="rounded-full px-8 border-slate-700 text-slate-300 hover:bg-slate-800 backdrop-blur-sm bg-slate-900/50"
                   >
-                    Lihat Portofolio
+                    Hubungi Saya
                   </Button>
                 </a>
               </div>
@@ -512,7 +515,7 @@ export default function Home() {
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4 mb-4">
                   <div>
                     <h4 className="text-lg font-bold text-blue-400">
-                      CCTV Instalation
+                      CCTV Installation
                     </h4>
                     <p className="text-slate-300 text-sm">Part Time</p>
                   </div>
