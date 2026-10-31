@@ -6,7 +6,7 @@
 
 /* ---------- Token warna ---------- */
 :root {
-  --font: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font: var(--font-manrope), "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, "Cascadia Code", "JetBrains Mono", Consolas, monospace;
 
   --radius-xl: 32px;
@@ -105,6 +105,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 
 .i { width: 1.15em; height: 1.15em; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .i--fill { fill: currentColor; stroke: none; }
+button .i, a .i { pointer-events: none; }
 
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 .skip { position: absolute; left: 16px; top: -60px; z-index: 200; background: var(--accent); color: #fff; padding: 10px 16px; border-radius: 999px; font-weight: 600; }
@@ -527,7 +528,7 @@ h2 { font-size: clamp(28px, 3.5vw, 42px); font-weight: 600; line-height: 1.12; l
   transition: transform .35s cubic-bezier(.2, .8, .2, 1), box-shadow .35s, border-color .25s;
   animation: cardIn .5s cubic-bezier(.2, .8, .2, 1) both; animation-delay: calc(var(--i, 0) * 40ms);
 }
-.cert-grid:not(.in) .cert, .skill-grid:not(.in) .skill, .skill-grid:not(.in) .meter i.on::after { animation-play-state: paused; }
+.cert-grid:not([data-in]) .cert, .skill-grid:not([data-in]) .skill, .skill-grid:not([data-in]) .meter i.on::after { animation-play-state: paused; }
 .cert:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: var(--line-strong); }
 @keyframes cardIn { from { opacity: 0; transform: translateY(14px) scale(.98); } }
 .cert__media {
@@ -704,7 +705,7 @@ h2 { font-size: clamp(28px, 3.5vw, 42px); font-weight: 600; line-height: 1.12; l
 
 /* ---------- Animasi muncul ---------- */
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity .8s cubic-bezier(.2, .8, .2, 1), transform .8s cubic-bezier(.2, .8, .2, 1); transition-delay: var(--d, 0s); }
-.reveal.in { opacity: 1; transform: none; }
+.reveal[data-in] { opacity: 1; transform: none; }
 
 /* Transisi tema berbentuk lingkaran */
 ::view-transition-old(root), ::view-transition-new(root) { animation: none; mix-blend-mode: normal; }

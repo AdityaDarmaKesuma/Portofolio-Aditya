@@ -1,0 +1,556 @@
+{
+  "site": {
+    "title": "Aditya Darma Kesuma | Portofolio",
+    "description": "Portofolio Aditya Darma Kesuma — Network Engineer, DevOps Engineer, dan Fullstack Developer."
+  },
+  "profile": {
+    "name": "Aditya Darma Kesuma",
+    "firstName": "Aditya",
+    "badge": "Lulusan S1 Teknik Informatika",
+    "greeting": "Saya",
+    "headline": [
+      "Network &",
+      "DevOps",
+      "Engineer"
+    ],
+    "watermark": "NETWORK · DEVOPS · INFRASTRUCTURE ·",
+    "roles": [
+      "Sysadmin / Network Engineer",
+      "DevOps Engineer",
+      "Fullstack Developer",
+      "UI/UX Designer"
+    ],
+    "intro": "Halo, saya Aditya Darma Kesuma, lulusan Teknik Informatika yang berfokus pada jaringan, infrastruktur sistem, DevOps, dan pengembangan perangkat lunak.",
+    "tagline": "Tertarik pada solusi teknologi yang aman, stabil, dan efisien.",
+    "photo": "/assets/img/profile/hero.webp",
+    "cv": "/assets/files/CV_Aditya_Darma_Kesuma.pdf",
+    "email": "adityadarmakesuma@gmail.com",
+    "phone": "0821-7320-3372",
+    "whatsapp": "6282173203372",
+    "socials": [
+      {
+        "type": "linkedin",
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/adityadarmakesuma"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/AdityaDarmaKesuma"
+      },
+      {
+        "type": "email",
+        "label": "Email",
+        "url": "mailto:adityadarmakesuma@gmail.com"
+      },
+      {
+        "type": "whatsapp",
+        "label": "WhatsApp",
+        "url": "https://wa.me/6282173203372"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "value": 3.84,
+      "decimals": 2,
+      "suffix": "",
+      "label": "IPK Akademik"
+    },
+    {
+      "auto": "certificates",
+      "suffix": "+",
+      "label": "Sertifikasi Resmi"
+    },
+    {
+      "auto": "projects",
+      "suffix": "+",
+      "label": "Proyek Utama"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Uptime Jaringan"
+    }
+  ],
+  "about": {
+    "title": "Membangun Infrastruktur yang Kokoh, Menghadirkan Solusi yang Efisien",
+    "paragraphs": [
+      "Saya adalah lulusan S1 Teknik Informatika dari STT Terpadu Nurul Fikri dengan keahlian komprehensif di bidang Infrastruktur Jaringan, Praktik DevOps, dan Rekayasa Perangkat Lunak.",
+      "Berbekal pengalaman teknis langsung di lapangan, saya terbiasa menangani deployment jaringan skala besar seperti SD-WAN & mesin ATM (bersama PT Telkom Indonesia), manajemen server, hingga pengembangan website full-stack.",
+      "Saya memegang prinsip untuk selalu memadukan keamanan infrastruktur yang kokoh dengan efisiensi performa aplikasi — menghadirkan solusi teknologi yang terukur, inovatif, dan berdampak nyata bagi penggunanya."
+    ],
+    "photos": [
+      {
+        "src": "/assets/img/about/wisuda-1.webp",
+        "caption": "Wisuda S1 Teknik Informatika — STT Terpadu Nurul Fikri",
+        "position": "center 30%"
+      },
+      {
+        "src": "/assets/img/about/wisuda-2.webp",
+        "caption": "Prosesi wisuda di atas panggung"
+      },
+      {
+        "src": "/assets/img/about/wisuda-3.webp",
+        "caption": "Pemindahan tali toga"
+      },
+      {
+        "src": "/assets/img/profile/about.webp",
+        "caption": "Aditya Darma Kesuma",
+        "cutout": true
+      }
+    ]
+  },
+  "experience": [
+    {
+      "role": "Field Engineer (ATM)",
+      "company": "PT Telkom Indonesia",
+      "period": "Jul 2026 – Sep 2026",
+      "points": [
+        "Melakukan instalasi, konfigurasi, dan aktivasi mesin ATM BRI di berbagai lokasi penugasan untuk memastikan kesiapan operasional perangkat 100%.",
+        "Menguji konektivitas jaringan dan integrasi sistem ATM dengan server pusat guna menjamin kelancaran, stabilitas, dan keamanan transaksi nasabah.",
+        "Menangani troubleshooting awal kendala perangkat keras dan jaringan (on-site), serta menyusun Berita Acara Instalasi (BAI) dan User Acceptance Test (UAT)."
+      ],
+      "tags": [
+        "ATM",
+        "Networking",
+        "Troubleshooting"
+      ]
+    },
+    {
+      "role": "Field Engineer (SD-WAN)",
+      "company": "PT Telkom Indonesia",
+      "period": "Jul 2025 – Jul 2026",
+      "points": [
+        "Mengimplementasikan instalasi, migrasi, dan aktivasi perangkat SD-WAN langsung di berbagai gerai Alfamart untuk mendukung pembaruan infrastruktur jaringan.",
+        "Mengeksekusi migrasi jaringan dengan perencanaan matang sehingga meminimalkan downtime operasional harian toko.",
+        "Melakukan pengujian konektivitas, menyelesaikan permasalahan WAN on-site, serta menyusun laporan teknis berkala status proyek migrasi."
+      ],
+      "tags": [
+        "SD-WAN",
+        "Migrasi",
+        "WAN"
+      ]
+    },
+    {
+      "role": "Instruktur MikroTik",
+      "company": "LPK Darul Falah Foundation",
+      "period": "Apr 2025 – Apr 2026",
+      "points": [
+        "Merancang dan memfasilitasi program pelatihan intensif 6 bulan untuk persiapan sertifikasi internasional MikroTik bagi siswa SMK jurusan TKJ.",
+        "Menyampaikan kurikulum praktik (MTCNA, MTCRE, MTCTCE) mencakup arsitektur jaringan, routing, manajemen bandwidth, dan keamanan firewall RouterOS.",
+        "Mengevaluasi pemahaman siswa secara berkala untuk kesiapan ujian sertifikasi resmi dan program magang industri."
+      ],
+      "tags": [
+        "MikroTik",
+        "Mengajar",
+        "RouterOS"
+      ]
+    },
+    {
+      "role": "CCTV Installation",
+      "company": "Part Time",
+      "period": "Jun 2024",
+      "points": [
+        "Melakukan survei lokasi, perancangan tata letak, dan instalasi fisik sistem CCTV untuk cakupan pemantauan area yang optimal.",
+        "Mengelola penarikan kabel dan terminasi pada panel kontrol/DVR dengan standar kerapian tinggi untuk mencegah gangguan arus pendek atau signal loss.",
+        "Mengonfigurasi jaringan DVR/NVR agar sistem pengawasan dapat dipantau secara real-time dari jarak jauh."
+      ],
+      "tags": [
+        "CCTV",
+        "DVR/NVR",
+        "Cabling"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "S1 Teknik Informatika",
+      "school": "STT Terpadu Nurul Fikri",
+      "period": "2022 – 2026",
+      "score": "IPK 3.84 / 4.00",
+      "description": "Fokus pada jaringan komputer, rekayasa perangkat lunak, dan infrastruktur sistem."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/assets/img/gallery/atm.webp",
+      "title": "Instalasi ATM",
+      "caption": "Field Engineer · PT Telkom Indonesia"
+    },
+    {
+      "src": "/assets/img/gallery/sdwan.webp",
+      "title": "Instalasi SD-WAN",
+      "caption": "Migrasi jaringan gerai Alfamart"
+    },
+    {
+      "src": "/assets/img/gallery/instruktur-mikrotik.webp",
+      "title": "Instruktur MikroTik",
+      "caption": "LPK Darul Falah Foundation"
+    },
+    {
+      "src": "/assets/img/gallery/cctv-1.webp",
+      "title": "Instalasi CCTV",
+      "caption": "Survei & pemasangan kamera"
+    },
+    {
+      "src": "/assets/img/gallery/cctv-2.webp",
+      "title": "Instalasi CCTV",
+      "caption": "Penarikan kabel & terminasi"
+    },
+    {
+      "src": "/assets/img/gallery/cctv-3.webp",
+      "title": "Instalasi CCTV",
+      "caption": "Konfigurasi DVR/NVR"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Keamanan Jaringan Port Knocking",
+      "year": "2026",
+      "category": "Tugas Akhir · Network Security",
+      "image": "/assets/img/projects/keamanan-jaringan.webp",
+      "description": "Mengembangkan keamanan jaringan berbasis Port Knocking bertingkat (TCP 1000, 2000, 3000) pada MikroTik. Berhasil 100% memblokir akses SSH tidak sah dengan beban prosesor stabil di 3%.",
+      "highlights": [
+        "100% akses SSH tidak sah terblokir",
+        "Beban CPU stabil di 3%",
+        "3 tahap knocking TCP"
+      ],
+      "tags": [
+        "MikroTik",
+        "RouterOS",
+        "Firewall",
+        "Port Knocking"
+      ],
+      "link": ""
+    },
+    {
+      "title": "Optimalisasi DevOps (CI/CD)",
+      "year": "2025",
+      "category": "DevOps",
+      "image": "/assets/img/projects/devops-cicd.webp",
+      "description": "Mengimplementasikan Continuous Integration/Continuous Deployment menggunakan Jenkins Pipeline as Code untuk version control dan pelacakan perubahan kode yang lebih efektif.",
+      "highlights": [
+        "Pipeline as Code",
+        "Build & deploy otomatis",
+        "Riwayat perubahan terlacak"
+      ],
+      "tags": [
+        "Jenkins",
+        "CI/CD",
+        "Git"
+      ],
+      "link": ""
+    },
+    {
+      "title": "Cryptifybox",
+      "year": "2025",
+      "category": "Web App",
+      "image": "/assets/img/projects/cryptifybox.webp",
+      "description": "Aplikasi web untuk enkripsi & dekripsi data. Backend dibangun dengan Laravel dan antarmuka dinamis menggunakan ReactJS.",
+      "highlights": [
+        "Enkripsi & dekripsi data",
+        "Backend Laravel",
+        "UI dinamis ReactJS"
+      ],
+      "tags": [
+        "Laravel",
+        "ReactJS",
+        "Kriptografi"
+      ],
+      "link": ""
+    }
+  ],
+  "certificates": [
+    {
+      "title": "MTCNA",
+      "issuer": "MikroTik",
+      "description": "MikroTik Certified Network Associate",
+      "category": "Jaringan",
+      "date": "Sep 2025 – Sep 2028",
+      "image": "/assets/certificates/mtcna.webp",
+      "thumb": "/assets/certificates/thumbs/mtcna.webp",
+      "link": ""
+    },
+    {
+      "title": "MTCRE",
+      "issuer": "MikroTik",
+      "description": "MikroTik Certified Routing Engineer",
+      "category": "Jaringan",
+      "date": "Sep 2025 – Sep 2028",
+      "image": "/assets/certificates/mtcre.webp",
+      "thumb": "/assets/certificates/thumbs/mtcre.webp",
+      "link": ""
+    },
+    {
+      "title": "OCNA Wireless",
+      "issuer": "TP-Link Omada",
+      "description": "Omada Certified Network Administrator",
+      "category": "Jaringan",
+      "date": "Jun 2025 – Jun 2028",
+      "image": "/assets/certificates/ocna.webp",
+      "thumb": "/assets/certificates/thumbs/ocna.webp",
+      "link": ""
+    },
+    {
+      "title": "Junior Web Developer",
+      "issuer": "BNSP",
+      "description": "Sertifikasi Kompetensi BNSP — Web Developer",
+      "category": "Web & Pemrograman",
+      "date": "Jan 2025 – Jan 2028",
+      "image": "/assets/certificates/bnsp-web-developer.webp",
+      "thumb": "/assets/certificates/thumbs/bnsp-web-developer.webp",
+      "link": ""
+    },
+    {
+      "title": "Junior Network Administrator",
+      "issuer": "BNSP",
+      "description": "Sertifikasi Kompetensi BNSP — DevOps",
+      "category": "Jaringan",
+      "date": "Agu 2025 – Agu 2028",
+      "image": "/assets/certificates/bnsp-network-admin.webp",
+      "thumb": "/assets/certificates/thumbs/bnsp-network-admin.webp",
+      "link": ""
+    },
+    {
+      "title": "Overview of AI",
+      "issuer": "Huawei ICT Academy",
+      "description": "Huawei ICT Academy",
+      "category": "Keamanan & AI",
+      "date": "Agu 2025",
+      "image": "/assets/certificates/huawei-ai.webp",
+      "thumb": "/assets/certificates/thumbs/huawei-ai.webp",
+      "link": ""
+    },
+    {
+      "title": "AWS S3 Basics",
+      "issuer": "Coursera",
+      "description": "Dasar-dasar layanan penyimpanan Amazon S3",
+      "category": "DevOps & Cloud",
+      "date": "Jun 2024",
+      "image": "/assets/certificates/aws-s3.webp",
+      "thumb": "/assets/certificates/thumbs/aws-s3.webp",
+      "link": ""
+    },
+    {
+      "title": "Python Fundamental",
+      "issuer": "Aguna Course",
+      "description": "Dasar pemrograman Python",
+      "category": "Web & Pemrograman",
+      "date": "Jul 2025",
+      "image": "/assets/certificates/python.webp",
+      "thumb": "/assets/certificates/thumbs/python.webp",
+      "link": ""
+    },
+    {
+      "title": "Virtual Machine Fundamental",
+      "issuer": "Aguna Course",
+      "description": "Dasar virtualisasi & virtual machine",
+      "category": "DevOps & Cloud",
+      "date": "Jul 2025",
+      "image": "/assets/certificates/virtual-machine.webp",
+      "thumb": "/assets/certificates/thumbs/virtual-machine.webp",
+      "link": ""
+    },
+    {
+      "title": "Linux Fundamental",
+      "issuer": "Aguna Course",
+      "description": "Dasar administrasi sistem Linux",
+      "category": "DevOps & Cloud",
+      "date": "Jul 2025",
+      "image": "/assets/certificates/linux.webp",
+      "thumb": "/assets/certificates/thumbs/linux.webp",
+      "link": ""
+    },
+    {
+      "title": "Cisco Basic",
+      "issuer": "ID-Networkers (IDN.ID)",
+      "description": "Dasar konfigurasi perangkat Cisco",
+      "category": "Jaringan",
+      "date": "Jun 2025",
+      "image": "/assets/certificates/cisco-basic.webp",
+      "thumb": "/assets/certificates/thumbs/cisco-basic.webp",
+      "link": ""
+    },
+    {
+      "title": "Basic Cyber Security",
+      "issuer": "ID-Networkers (IDN.ID)",
+      "description": "Dasar keamanan siber",
+      "category": "Keamanan & AI",
+      "date": "Jun 2025",
+      "image": "/assets/certificates/cyber-security.webp",
+      "thumb": "/assets/certificates/thumbs/cyber-security.webp",
+      "link": ""
+    },
+    {
+      "title": "Network Simulation PNETLab",
+      "issuer": "ID-Networkers (IDN.ID)",
+      "description": "Simulasi jaringan dengan PNETLab",
+      "category": "Jaringan",
+      "date": "Feb 2024",
+      "image": "/assets/certificates/pnetlab.webp",
+      "thumb": "/assets/certificates/thumbs/pnetlab.webp",
+      "link": ""
+    },
+    {
+      "title": "Studi Independen Fullstack Web Developer",
+      "issuer": "NF Academy",
+      "description": "Program Studi Independen",
+      "category": "Web & Pemrograman",
+      "date": "Sep 2024 – Des 2024",
+      "image": "/assets/certificates/nf-fullstack.webp",
+      "thumb": "/assets/certificates/thumbs/nf-fullstack.webp",
+      "link": ""
+    },
+    {
+      "title": "Studi Independen DevOps Engineer",
+      "issuer": "NF Academy",
+      "description": "Program Studi Independen",
+      "category": "DevOps & Cloud",
+      "date": "Feb 2025 – Jun 2025",
+      "image": "/assets/certificates/nf-devops.webp",
+      "thumb": "/assets/certificates/thumbs/nf-devops.webp",
+      "link": ""
+    }
+  ],
+  "skills": [
+    {
+      "group": "Network & Infra",
+      "icon": "network",
+      "items": [
+        {
+          "name": "MikroTik RouterOS",
+          "level": "Advanced"
+        },
+        {
+          "name": "Basic Configuration",
+          "level": "Expert"
+        },
+        {
+          "name": "DHCP",
+          "level": "Expert"
+        },
+        {
+          "name": "DNS",
+          "level": "Expert"
+        },
+        {
+          "name": "Bridge",
+          "level": "Expert"
+        },
+        {
+          "name": "Routing",
+          "level": "Expert"
+        },
+        {
+          "name": "OSPF",
+          "level": "Expert"
+        },
+        {
+          "name": "VLAN",
+          "level": "Expert"
+        },
+        {
+          "name": "Firewall",
+          "level": "Expert"
+        },
+        {
+          "name": "Quality of Service",
+          "level": "Expert"
+        },
+        {
+          "name": "Wireless",
+          "level": "Expert"
+        },
+        {
+          "name": "Tunneling",
+          "level": "Expert"
+        },
+        {
+          "name": "Port Knocking",
+          "level": "Advanced"
+        },
+        {
+          "name": "Web Proxy",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    {
+      "group": "DevOps",
+      "icon": "server",
+      "items": [
+        {
+          "name": "Linux Sysadmin",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Docker & Kubernetes",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Terraform & Ansible",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Prometheus & Grafana",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Jenkins CI/CD Pipeline",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Version Control (Git)",
+          "level": "Intermediate"
+        },
+        {
+          "name": "AWS",
+          "level": "Beginner"
+        }
+      ]
+    },
+    {
+      "group": "Web Dev",
+      "icon": "code",
+      "items": [
+        {
+          "name": "HTML",
+          "level": "Advanced"
+        },
+        {
+          "name": "CSS",
+          "level": "Advanced"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Intermediate"
+        },
+        {
+          "name": "ReactJS",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Laravel (PHP)",
+          "level": "Intermediate"
+        },
+        {
+          "name": "PHP Native",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Python",
+          "level": "Intermediate"
+        },
+        {
+          "name": "UI/UX Design",
+          "level": "Intermediate"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Mari Berkolaborasi!",
+    "text": "Saya terbuka untuk peluang karier sebagai Network Engineer, DevOps Engineer, atau Software Engineer. Jangan ragu untuk menghubungi saya."
+  }
+}
