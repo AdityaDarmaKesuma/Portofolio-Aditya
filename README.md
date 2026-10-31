@@ -46,7 +46,7 @@ Buka http://localhost:3000. Untuk versi produksi: `npm run build` lalu `npm star
 2. Klik **Mode Edit** di kiri bawah → tab **Sertifikat** → seret file (JPG/PNG/WebP/PDF),
    isi nama, penerbit, kategori, tanggal → **Tambah sertifikat**.
 3. Tab **Terbitkan** → **Unduh ZIP Pembaruan**.
-4. Ekstrak ZIP, salin folder `data` dan `public` ke folder proyek (pilih *Replace*).
+4. Ekstrak ZIP, salin folder `data` dan `public` ke folder proyek (pilih _Replace_).
 5. Commit & push → Vercel build ulang otomatis.
 
 Di Mode Edit Anda juga bisa mengganti gambar apa pun (arahkan kursor ke gambar →
@@ -69,6 +69,17 @@ diterbitkan; pengunjung tidak pernah melihat panel ini.
 - `category` dipakai untuk tombol filter; kategori baru otomatis muncul.
 - `thumb` boleh kosong; `link` (opsional) = tautan verifikasi.
 - Angka "Sertifikasi Resmi" ikut bertambah otomatis.
+
+## Pengaturan cepat (`site.config.js`)
+
+File `site.config.js` di root proyek mengatur:
+
+- **Navbar**: teks logo, tombol CTA, daftar menu (hapus baris = sembunyikan menu)
+- **Warna aksen** untuk tema terang & gelap
+- **Label tombol**: Unduh CV, Mari Diskusi, Kirim Email, dll.
+- **Judul & deskripsi tiap bagian** (Pengalaman, Proyek, Sertifikat, Keahlian, dst.)
+- **Footer**
+- **Perilaku**: jumlah sertifikat awal, kecepatan carousel, autoplay galeri (`0` = mati), tampil/sembunyi terminal
 
 ## Mengubah teks & warna
 

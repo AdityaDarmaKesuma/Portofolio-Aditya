@@ -8,11 +8,7 @@
     "firstName": "Aditya",
     "badge": "Lulusan S1 Teknik Informatika",
     "greeting": "Saya",
-    "headline": [
-      "Network &",
-      "DevOps",
-      "Engineer"
-    ],
+    "headline": ["Network &", "DevOps", "Engineer"],
     "watermark": "NETWORK · DEVOPS · INFRASTRUCTURE ·",
     "roles": [
       "Sysadmin / Network Engineer",
@@ -111,11 +107,7 @@
         "Menguji konektivitas jaringan dan integrasi sistem ATM dengan server pusat guna menjamin kelancaran, stabilitas, dan keamanan transaksi nasabah.",
         "Menangani troubleshooting awal kendala perangkat keras dan jaringan (on-site), serta menyusun Berita Acara Instalasi (BAI) dan User Acceptance Test (UAT)."
       ],
-      "tags": [
-        "ATM",
-        "Networking",
-        "Troubleshooting"
-      ]
+      "tags": ["ATM", "Networking", "Troubleshooting"]
     },
     {
       "role": "Field Engineer (SD-WAN)",
@@ -126,11 +118,7 @@
         "Mengeksekusi migrasi jaringan dengan perencanaan matang sehingga meminimalkan downtime operasional harian toko.",
         "Melakukan pengujian konektivitas, menyelesaikan permasalahan WAN on-site, serta menyusun laporan teknis berkala status proyek migrasi."
       ],
-      "tags": [
-        "SD-WAN",
-        "Migrasi",
-        "WAN"
-      ]
+      "tags": ["SD-WAN", "Migrasi", "WAN"]
     },
     {
       "role": "Instruktur MikroTik",
@@ -141,11 +129,7 @@
         "Menyampaikan kurikulum praktik (MTCNA, MTCRE, MTCTCE) mencakup arsitektur jaringan, routing, manajemen bandwidth, dan keamanan firewall RouterOS.",
         "Mengevaluasi pemahaman siswa secara berkala untuk kesiapan ujian sertifikasi resmi dan program magang industri."
       ],
-      "tags": [
-        "MikroTik",
-        "Mengajar",
-        "RouterOS"
-      ]
+      "tags": ["MikroTik", "Mengajar", "RouterOS"]
     },
     {
       "role": "CCTV Installation",
@@ -156,11 +140,7 @@
         "Mengelola penarikan kabel dan terminasi pada panel kontrol/DVR dengan standar kerapian tinggi untuk mencegah gangguan arus pendek atau signal loss.",
         "Mengonfigurasi jaringan DVR/NVR agar sistem pengawasan dapat dipantau secara real-time dari jarak jauh."
       ],
-      "tags": [
-        "CCTV",
-        "DVR/NVR",
-        "Cabling"
-      ]
+      "tags": ["CCTV", "DVR/NVR", "Cabling"]
     }
   ],
   "education": [
@@ -216,12 +196,7 @@
         "Beban CPU stabil di 3%",
         "3 tahap knocking TCP"
       ],
-      "tags": [
-        "MikroTik",
-        "RouterOS",
-        "Firewall",
-        "Port Knocking"
-      ],
+      "tags": ["MikroTik", "RouterOS", "Firewall", "Port Knocking"],
       "link": ""
     },
     {
@@ -235,11 +210,7 @@
         "Build & deploy otomatis",
         "Riwayat perubahan terlacak"
       ],
-      "tags": [
-        "Jenkins",
-        "CI/CD",
-        "Git"
-      ],
+      "tags": ["Jenkins", "CI/CD", "Git"],
       "link": ""
     },
     {
@@ -253,11 +224,7 @@
         "Backend Laravel",
         "UI dinamis ReactJS"
       ],
-      "tags": [
-        "Laravel",
-        "ReactJS",
-        "Kriptografi"
-      ],
+      "tags": ["Laravel", "ReactJS", "Kriptografi"],
       "link": ""
     }
   ],

@@ -1,11 +1,22 @@
-import { Manrope } from 'next/font/google';
-import data from '@/data/portfolio.json';
-import './globals.css';
+import { Manrope } from "next/font/google";
+import data from "@/data/portfolio.json";
+import siteConfig from "@/site.config";
+import "./globals.css";
 
-const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope', display: 'swap' });
+/* Warna aksen dari site.config.js */
+const { light, dark } = siteConfig.colors;
+const colorCSS =
+  `html:root{--accent:${light.accent};--accent-hover:${light.accentHover}}` +
+  `html:root[data-theme="dark"]{--accent:${dark.accent};--accent-hover:${dark.accentHover}}`;
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  variable: "--font-manrope",
+  display: "swap",
+});
 
 export const metadata = {
-  metadataBase: new URL('https://portofolio-aditya-darma.vercel.app'),
+  metadataBase: new URL("https://portofolio-aditya-darma.vercel.app"),
   title: data.site.title,
   description: data.site.description,
   openGraph: {
@@ -19,9 +30,9 @@ export const metadata = {
 };
 
 export const viewport = {
-  width: 'device-width',
+  width: "device-width",
   initialScale: 1,
-  themeColor: '#eceff4',
+  themeColor: "#eceff4",
 };
 
 /* Tema dipasang sebelum halaman tampil agar tidak berkedip */
@@ -34,6 +45,7 @@ export default function RootLayout({ children }) {
     <html lang="id" className={manrope.variable} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        <style dangerouslySetInnerHTML={{ __html: colorCSS }} />
       </head>
       <body>{children}</body>
     </html>
