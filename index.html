@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aditya Darma Kesuma | Portofolio</title>
+  <meta name="description" content="Portofolio Aditya Darma Kesuma — Network Engineer, DevOps Engineer, dan Fullstack Developer.">
+  <meta property="og:title" content="Aditya Darma Kesuma | Portofolio">
+  <meta property="og:description" content="Network Engineer · DevOps Engineer · Fullstack Developer">
+  <meta property="og:image" content="assets/img/profile/hero.webp">
+  <meta name="theme-color" content="#eceff4">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%231d4ed8'/%3E%3Ctext x='32' y='43' font-family='Arial' font-size='30' font-weight='700' fill='white' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+
+  <!-- Tema dipasang sebelum halaman tampil agar tidak berkedip -->
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('pf-theme'); } catch (e) {}
+      var dark = t ? t === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#about">Lewati ke konten</a>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__bar">
+      <a href="#home" class="nav__logo" id="navLogo">Aditya Darma</a>
+      <nav class="nav__links" id="navLinks" aria-label="Navigasi utama">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#experience">Pengalaman</a>
+        <a href="#projects">Proyek</a>
+        <a href="#certificates">Sertifikat</a>
+        <a href="#skills">Keahlian</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn theme-toggle" id="themeToggle" type="button" aria-label="Ganti tema terang/gelap">
+          <svg class="i i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2m-7.07-17.07 1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          <svg class="i i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+        <a href="#contact" class="btn btn--primary btn--sm nav__cta">Hubungi Saya</a>
+        <button class="icon-btn nav__burger" id="burger" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="navLinks">
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section id="home" class="wrap">
+      <div class="card hero" id="hero"></div>
+    </section>
+
+    <!-- ============ TENTANG ============ -->
+    <section id="about" class="wrap">
+      <div class="card about" id="aboutCard"></div>
+    </section>
+
+    <!-- ============ PENGALAMAN & PENDIDIKAN ============ -->
+    <section id="experience" class="wrap">
+      <div class="card panel">
+        <div class="sec-head reveal">
+          <div>
+            <span class="eyebrow">Pengalaman & Pendidikan</span>
+            <h2>Perjalanan karier yang dibangun dari lapangan</h2>
+          </div>
+          <p>Pengalaman langsung menangani jaringan skala besar, mengajar, hingga instalasi sistem keamanan. Klik setiap kartu untuk melihat detailnya.</p>
+        </div>
+        <div class="xp-layout">
+          <ol class="timeline" id="timeline"></ol>
+          <aside class="xp-aside" id="education"></aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DOKUMENTASI (CAROUSEL) ============ -->
+    <section id="gallery" class="wrap">
+      <div class="card panel">
+        <div class="sec-head reveal">
+          <div>
+            <span class="eyebrow">Dokumentasi Kegiatan</span>
+            <h2>Momen di balik pekerjaan</h2>
+          </div>
+          <div class="strip-controls">
+            <span class="strip-count" id="stripCount">01 / 06</span>
+            <button class="icon-btn icon-btn--outline" id="stripPrev" type="button" aria-label="Foto sebelumnya"><svg class="i" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg></button>
+            <button class="icon-btn icon-btn--outline" id="stripNext" type="button" aria-label="Foto berikutnya"><svg class="i" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></button>
+          </div>
+        </div>
+        <div class="strip reveal" id="strip">
+          <div class="strip__track" id="stripTrack"></div>
+          <div class="strip__progress"><span id="stripBar"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROYEK ============ -->
+    <section id="projects" class="wrap">
+      <div class="card panel">
+        <div class="sec-head reveal">
+          <div>
+            <span class="eyebrow">Proyek</span>
+            <h2>Mewujudkan ide menjadi solusi nyata</h2>
+          </div>
+          <p>Kumpulan proyek yang mencerminkan proses berpikir, pemecahan masalah, dan hasil yang terukur.</p>
+        </div>
+        <div class="projects" id="projectGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ SERTIFIKAT ============ -->
+    <section id="certificates" class="wrap">
+      <div class="card panel">
+        <div class="sec-head reveal">
+          <div>
+            <span class="eyebrow">Pelatihan & Sertifikasi</span>
+            <h2>Kompetensi yang tervalidasi</h2>
+          </div>
+          <p id="certIntro">Sertifikasi resmi dari lembaga industri dan pemerintah. Klik sertifikat untuk melihat ukuran penuh.</p>
+        </div>
+        <div class="cert-toolbar reveal">
+          <div class="chips" id="certChips" role="tablist" aria-label="Filter kategori sertifikat"></div>
+          <label class="search">
+            <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="search" id="certSearch" placeholder="Cari sertifikat…" aria-label="Cari sertifikat">
+          </label>
+        </div>
+        <div class="cert-grid" id="certGrid" data-reveal></div>
+        <div class="cert-more" id="certMoreWrap"><button class="btn btn--ghost" id="certMore" type="button"></button></div>
+      </div>
+    </section>
+
+    <!-- ============ KEAHLIAN ============ -->
+    <section id="skills" class="wrap">
+      <div class="card panel">
+        <div class="sec-head reveal">
+          <div>
+            <span class="eyebrow">Tech Stack & Keahlian</span>
+            <h2>Alat yang saya gunakan setiap hari</h2>
+          </div>
+          <p>Dari konfigurasi router hingga pipeline deployment dan antarmuka web.</p>
+        </div>
+        <div class="tabs reveal" id="skillTabs" role="tablist" aria-label="Filter keahlian"><span class="tabs__ink" aria-hidden="true"></span></div>
+        <div class="skill-grid" id="skillGrid" data-reveal></div>
+      </div>
+    </section>
+
+    <!-- ============ KONTAK ============ -->
+    <section id="contact" class="wrap">
+      <div class="contact" id="contactCard">
+        <div class="contact__info reveal" id="contactInfo"></div>
+        <div class="term reveal" id="terminal">
+          <div class="term__bar">
+            <span class="term__dots"><i></i><i></i><i></i></span>
+            <span class="term__title">guest@aditya-portfolio:~</span>
+          </div>
+          <div class="term__body" id="termBody">
+            <div class="term__out" id="termOut"></div>
+            <form class="term__line" id="termForm" autocomplete="off">
+              <label for="termInput" class="term__prompt">guest@portfolio:~$</label>
+              <input id="termInput" spellcheck="false" autocapitalize="off" placeholder="ketik 'help'…">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer" id="footer"></footer>
+
+  <!-- ============ LIGHTBOX (sertifikat & galeri) ============ -->
+  <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Pratinjau gambar" hidden>
+    <div class="lb__top">
+      <span class="lb__count" id="lbCount"></span>
+      <div class="lb__actions">
+        <button class="icon-btn icon-btn--glass" id="lbZoom" type="button" aria-label="Perbesar"><svg class="i" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></svg></button>
+        <a class="icon-btn icon-btn--glass" id="lbOpen" target="_blank" rel="noopener" aria-label="Buka file asli"><svg class="i" viewBox="0 0 24 24"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+        <button class="icon-btn icon-btn--glass" id="lbClose" type="button" aria-label="Tutup"><svg class="i" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+      </div>
+    </div>
+    <div class="lb__stage">
+      <button class="lb__nav lb__prev" id="lbPrev" type="button" aria-label="Sebelumnya"><svg class="i" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg></button>
+      <div class="lb__frame" id="lbFrame"></div>
+      <button class="lb__nav lb__next" id="lbNext" type="button" aria-label="Berikutnya"><svg class="i" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></button>
+    </div>
+    <div class="lb__bottom">
+      <div class="lb__meta"><strong id="lbTitle"></strong><span id="lbCaption"></span><a class="lb__link" id="lbLink" target="_blank" rel="noopener" hidden>Verifikasi sertifikat ↗</a></div>
+      <div class="lb__thumbs" id="lbThumbs"></div>
+    </div>
+  </div>
+
+  <!-- ============ MODAL PROYEK ============ -->
+  <dialog class="modal" id="projectModal" aria-labelledby="pmTitle"></dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <button class="to-top" id="toTop" type="button" aria-label="Kembali ke atas"><svg class="i" viewBox="0 0 24 24"><path d="m5 12 7-7 7 7M12 19V5"/></svg></button>
+
+  <noscript><p class="noscript">Aktifkan JavaScript untuk melihat portofolio ini.</p></noscript>
+
+  <script src="data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
